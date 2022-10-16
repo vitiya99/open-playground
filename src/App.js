@@ -1,11 +1,11 @@
-import React from 'react'
+import Login from "./pages/login/Login";
 
 const App = () => {
   return (
-    <h1 className='text-3xl font-bold underline'>
-      Hello World!
-    </h1>
-  )
-}
+    <>
+      <Login />
+    </>
+  );
+};
 
-export default App
+export default App;
